@@ -1,0 +1,18 @@
+
+<view class="con">
+	
+	
+<view class="head">
+<v-epsoide class="epsoide" index="{{resData.index}}"/>
+<view class='like-container'>
+<v-like class="like" count="{{likeCount}}" status="{{likeStatus}}" bind:like="onlike"/>
+<v-button openType="share" class='share-btn'>
+	<image src="../../images/icon/share.png" slot="img" class='share'></image>
+</v-button>
+</view>
+</view>
+<v-movie img="{{resData.image}}" content="{{resData.content}}" pageshow="{{resData.type!=100}}"/>
+<v-music img="{{resData.image}}" content="{{resData.content}}" src="{{resData.url}}" title="{{resData.title}}" wx:if="{{resData.type==200}}"/>
+<v-essay img="{{resData.image}}" content="{{resData.content}}"  pageshow="{{resData.type!=300}}" />
+<v-navi class="navi" title="{{resData.title}}" first="{{first}}" latest="{{latest}}" bind:left="onNext" bind:right="onPrevious"/>
+</view>

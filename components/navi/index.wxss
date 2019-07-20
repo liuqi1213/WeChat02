@@ -1,0 +1,17 @@
+.navi{
+	display: inline-flex;
+	flex-direction: row;
+	width: 600rpx;
+	height: 80rpx;
+	border-radius: 2px;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #f7f7f7;
+}
+.icon{
+	width: 80rpx;
+	height: 80rpx;
+}
+.title{
+	font-size: 28rpx;
+}

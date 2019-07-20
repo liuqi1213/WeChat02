@@ -1,0 +1,10 @@
+<view class="con" bind:tap="onTap"> 
+	<image src="{{books.image}}"></image>
+	<view class="dest">
+		<text class="title">{{books.title}}</text>
+		<text class="author">{{books.author}}</text>
+		<view class="foot">
+			<text class="footer">{{books.fav_nums}}  喜欢</text>
+		</view>
+	</view>
+</view>

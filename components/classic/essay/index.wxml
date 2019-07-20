@@ -1,0 +1,5 @@
+<view class="classic-con" hidden="{{pageshow}}">
+	<image src="{{img}}" class="classic-img"></image>
+	<image src="images/essay@tag.png" class="tag"></image>
+	<text class="content">{{content}}</text> 
+</view>

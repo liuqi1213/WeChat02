@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+		"v-book":"/components/books/index",
+		"v-serach":"/components/serach/index"
+	}
+}
